@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  webappwithdocker:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
+
+  dockerappapi:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
